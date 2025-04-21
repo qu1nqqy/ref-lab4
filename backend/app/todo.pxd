@@ -1,5 +1,3 @@
-from redis import Redis
-
 cdef class TodoManager:
     cdef object redis
     cpdef add_task(self, str text)

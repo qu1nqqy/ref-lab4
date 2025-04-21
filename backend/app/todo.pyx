@@ -1,6 +1,3 @@
-# distutils: language = c++
-
-from redis import Redis
 import json
 
 cdef class TodoManager:
